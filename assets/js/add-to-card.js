@@ -15,13 +15,7 @@ let cartItems = JSON.parse(localStorage.getItem("cart_items")) || [];
 document.addEventListener("DOMContentLoaded", loadData);
 
 checkOutBtn.addEventListener("click", () => {
-  /* alert("Đơn hàng đã được thanh toán");  */
 
-  /* var x = document.getElementById("snackbar");
-  x.className = "show";
-  setTimeout(function () {
-    x.className = x.className.replace("show", "");
-  }, 3000); */
 swal("Đặt hàng thành công", "Xin vui lòng kiểm tra email của bạn", "success", {
   button: false,
   timer: 3000,
