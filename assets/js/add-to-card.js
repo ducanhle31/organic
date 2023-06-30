@@ -52,7 +52,7 @@ addToCartBtn.forEach((btn) => {
       x.className = "shows";
       setTimeout(function () {
         x.className = x.className.replace("shows", "");
-      }, 3000);
+      }, 2000);
       /*  alert("Sản phẩm đã có trong giỏ hàng"); */
       return;
     }
