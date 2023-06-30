@@ -173,10 +173,10 @@ margin-top: 15px;
 }
 
 .pay__item  {
-  margin-bottom: 15px;
+  margin-bottom: 15px; 
 }
-
-.product-qty{ display: flex; align-items: center;;}
+.pay__item p{ width: 100px;}
+.product-qty{ display: flex; align-items: center;}
 .product-qty button{ margin: 0 10px;}
 .pay__item .price{ display: flex; color: red;}
 
